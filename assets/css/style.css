@@ -45,7 +45,7 @@ header {
 }
 #content1 {
 	background-color:white;
-	min-height:540px;
+	min-height:545px;
 	width:640px;
 	border:1px solid gray;
 	margin:20px;
@@ -105,4 +105,43 @@ button {
 	text-align:center;
 	height:50px;
 	width:150px;
+}
+.port {
+	margin:8px;
+}
+#image1, #image2, #image3, #image4, #image5, #image6 { 
+	height:200px;
+	width:250px;
+	display:inline-block;
+	margin:8px 32px;
+	float:initial;
+	overflow:auto;
+	position:relative;
+}
+#image1 {
+	background-image:url('../images/enemies.jpg')
+}
+#image2 {
+	background-image:url('../images/cats.jpg')
+}
+#image3 {
+	background-image:url('../images/color.jpg')
+}
+#image4 {
+	background-image:url('../images/sidewalk.jpg')
+}
+#image5 {
+	background-image:url('../images/carne.jpg')
+}
+#image6 {
+	background-image:url('../images/city.jpg')
+}
+.specfont {
+	color:white;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(167, 175, 253, 0.8);
+	padding:10px 0px;
 }
